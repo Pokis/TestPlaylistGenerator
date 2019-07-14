@@ -1,0 +1,29 @@
+﻿<Window x:Class="Judeikis.Domantas.TestPlaylist.Generator.FormsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormsApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Load test results
+                " HorizontalAlignment="Left" Margin="26,10,0,0" VerticalAlignment="Top" Width="103" Click="LoadTrxFile" Height="21"/>
+        <DataGrid HorizontalAlignment="Left" Height="200" Margin="146,10,0,0" VerticalAlignment="Top" Width="600" Name="ResultDataGrid" 
+                  GridLinesVisibility="Vertical" HeadersVisibility="All" RowHeight="30" ColumnWidth="100"
+                  Background="LightGray" RowBackground="LightYellow" AlternatingRowBackground="LightBlue"
+                  BorderBrush="Gray" BorderThickness="5" 
+                  IsReadOnly="True" />
+        <Label Content="Total:" HorizontalAlignment="Left" Margin="26,36,0,0" VerticalAlignment="Top"/>
+        <Label Content="Failed:" HorizontalAlignment="Left" Margin="26,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.465,1.577"/>
+        <Label Content="Succeded:" HorizontalAlignment="Left" Margin="26,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="69,36,0,0" VerticalAlignment="Top" Name="TotalTestsLabel"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="74,62,0,0" VerticalAlignment="Top" Name="FailedTestsLabel" RenderTransformOrigin="1.348,-0.462"/>
+        <Label Content="0" HorizontalAlignment="Left" Margin="90,88,0,0" VerticalAlignment="Top" Name="SuccededTestsLabel"/>
+        <TextBox HorizontalAlignment="Left" Height="114" Margin="146,225,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="600" Name="FailedTestsPlayListBox"/>
+        <Label Content="Failed Tests playlist" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top"/>
+        <Button Content="Regenerate playlist" HorizontalAlignment="Left" Margin="146,344,0,0" VerticalAlignment="Top" Width="267" Click="RegeneratePlaylist_ButtonClick"/>
+        <Button Content="Export playlist" HorizontalAlignment="Left" Margin="433,344,0,0" VerticalAlignment="Top" Width="313" Click="ExportPlaylist_ButtonClick"/>
+
+    </Grid>
+</Window>

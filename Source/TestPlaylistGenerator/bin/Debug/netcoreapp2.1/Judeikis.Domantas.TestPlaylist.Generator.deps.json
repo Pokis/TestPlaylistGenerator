@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Judeikis.Domantas.TestPlaylist.Generator/1.0.0": {
+        "dependencies": {
+          "Judeikis.Domantas.TestPlaylist.Generator.DataContracts": "1.0.0"
+        },
+        "runtime": {
+          "Judeikis.Domantas.TestPlaylist.Generator.dll": {}
+        }
+      },
+      "Judeikis.Domantas.TestPlaylist.Generator.DataContracts/1.0.0": {
+        "runtime": {
+          "Judeikis.Domantas.TestPlaylist.Generator.DataContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Judeikis.Domantas.TestPlaylist.Generator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Judeikis.Domantas.TestPlaylist.Generator.DataContracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

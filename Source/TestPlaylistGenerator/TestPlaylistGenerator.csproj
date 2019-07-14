@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Judeikis.Domantas.TestPlaylist.Generator</AssemblyName>
+    <RootNamespace>Judeikis.Domantas.TestPlaylist.Generator</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestPlayListGenerator.DataContracts\TestPlayListGenerator.DataContracts.csproj" />
+  </ItemGroup>
+
+</Project>
