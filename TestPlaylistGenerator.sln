@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlaylistGenerator", "TestPlaylistGenerator.csproj", "{C5379296-F822-420B-B1B3-DD75C4E8C8D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlaylistGenerator", "Source\TestPlaylistGenerator\TestPlaylistGenerator.csproj", "{C5379296-F822-420B-B1B3-DD75C4E8C8D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp", "..\FormsApp\FormsApp.csproj", "{FA12D3DE-D858-4D37-B868-68186336BCBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsApp", "Source\FormsApp\FormsApp.csproj", "{FA12D3DE-D858-4D37-B868-68186336BCBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlayListGenerator.DataContracts", "..\TestPlayListGenerator.DataContracts\TestPlayListGenerator.DataContracts.csproj", "{A9E8CE04-4A45-4773-AF6E-E781BCB7B3DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPlayListGenerator.DataContracts", "Source\TestPlayListGenerator.DataContracts\TestPlayListGenerator.DataContracts.csproj", "{A9E8CE04-4A45-4773-AF6E-E781BCB7B3DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
