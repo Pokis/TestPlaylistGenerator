@@ -1,8 +1,0 @@
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\bin\Debug\netstandard2.0\Judeikis.Domantas.TestPlaylist.Generator.DataContracts.deps.json
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\bin\Debug\netstandard2.0\Judeikis.Domantas.TestPlaylist.Generator.DataContracts.dll
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\bin\Debug\netstandard2.0\Judeikis.Domantas.TestPlaylist.Generator.DataContracts.pdb
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\obj\Debug\netstandard2.0\TestPlayListGenerator.DataContracts.csproj.CoreCompileInputs.cache
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\obj\Debug\netstandard2.0\TestPlayListGenerator.DataContracts.AssemblyInfoInputs.cache
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\obj\Debug\netstandard2.0\TestPlayListGenerator.DataContracts.AssemblyInfo.cs
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\obj\Debug\netstandard2.0\Judeikis.Domantas.TestPlaylist.Generator.DataContracts.dll
-W:\TestPlaylistGenerator\Source\TestPlayListGenerator.DataContracts\obj\Debug\netstandard2.0\Judeikis.Domantas.TestPlaylist.Generator.DataContracts.pdb
