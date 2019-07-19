@@ -8,6 +8,15 @@ namespace Judeikis.Domantas.TestPlaylist.Generator.DataContracts.Models
         Passed,
 
         [XmlEnum("Failed")]
-        Failed
+        Failed,
+
+        [XmlEnum("NotExecuted")]
+        NotExecuted,
+
+        [XmlEnum("Skipped")]
+        Skipped,
+
+        [XmlEnum("Inconclusive")]
+        Inconclusive
     }
 }
